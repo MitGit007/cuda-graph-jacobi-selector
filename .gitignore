@@ -1,0 +1,40 @@
+# CMake build directories
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled files
+*.exe
+*.obj
+*.o
+*.lib
+*.pdb
+*.exp
+*.dll
+*.so
+*.a
+
+# Generated experiment data
+results/large_validation_temp/
+results/heldout_raw_*.csv
+results/heldout_order_*.csv
+results/heldout_environment_*.txt
+results/large_validation_*.txt
+*.bin
+
+# Editor and operating-system files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
