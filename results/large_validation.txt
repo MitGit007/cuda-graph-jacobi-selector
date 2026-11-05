@@ -1,0 +1,63 @@
+Large-grid output validation
+
+Case: 1024x1024, N=511, graph batch=16
+ordinary vs graph
+Grid: 1024x1024 (1048576 cells)
+Max absolute error : 0.000000e+00
+Max relative error : 0.000000e+00 (tolerance: 1.0e-05)
+Violations         : 0
+Result: PASS
+
+ordinary vs selector
+Grid: 1024x1024 (1048576 cells)
+Max absolute error : 0.000000e+00
+Max relative error : 0.000000e+00 (tolerance: 1.0e-05)
+Violations         : 0
+Result: PASS
+
+Case: 1024x1024, N=5000, graph batch=128
+ordinary vs graph
+Grid: 1024x1024 (1048576 cells)
+Max absolute error : 0.000000e+00
+Max relative error : 0.000000e+00 (tolerance: 1.0e-05)
+Violations         : 0
+Result: PASS
+
+ordinary vs selector
+Grid: 1024x1024 (1048576 cells)
+Max absolute error : 0.000000e+00
+Max relative error : 0.000000e+00 (tolerance: 1.0e-05)
+Violations         : 0
+Result: PASS
+
+Case: 2048x2048, N=511, graph batch=32
+ordinary vs graph
+Grid: 2048x2048 (4194304 cells)
+Max absolute error : 0.000000e+00
+Max relative error : 0.000000e+00 (tolerance: 1.0e-05)
+Violations         : 0
+Result: PASS
+
+ordinary vs selector
+Grid: 2048x2048 (4194304 cells)
+Max absolute error : 0.000000e+00
+Max relative error : 0.000000e+00 (tolerance: 1.0e-05)
+Violations         : 0
+Result: PASS
+
+Case: 2048x2048, N=5000, graph batch=128
+ordinary vs graph
+Grid: 2048x2048 (4194304 cells)
+Max absolute error : 0.000000e+00
+Max relative error : 0.000000e+00 (tolerance: 1.0e-05)
+Violations         : 0
+Result: PASS
+
+ordinary vs selector
+Grid: 2048x2048 (4194304 cells)
+Max absolute error : 0.000000e+00
+Max relative error : 0.000000e+00 (tolerance: 1.0e-05)
+Violations         : 0
+Result: PASS
+
+Overall: ALL LARGE-GRID COMPARISONS PASS
